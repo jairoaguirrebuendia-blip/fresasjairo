@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Toquímetro</string>
+    <string name="title_activity_main">Toquímetro</string>
+    <string name="package_name">com.jairo.toquimetro</string>
+    <string name="custom_url_scheme">com.jairo.toquimetro</string>
+</resources>
