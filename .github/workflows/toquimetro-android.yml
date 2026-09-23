@@ -1,0 +1,64 @@
+name: Toquímetro · APK Android
+
+on:
+  push:
+    paths:
+      - "toquimetro/**"
+      - ".github/workflows/toquimetro-android.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: toquimetro
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: toquimetro/package-lock.json
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Copiar web a Android
+        run: npx cap sync android
+
+      - name: Compilar APK
+        working-directory: toquimetro/android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+          cp app/build/outputs/apk/debug/app-debug.apk ../toquimetro.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: toquimetro-apk
+          path: toquimetro/toquimetro.apk
+
+      - name: Publicar en Releases (toquimetro-latest)
+        if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/heads/claude/toquimetro')
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: toquimetro-latest
+          name: Toquímetro (última versión)
+          prerelease: true
+          make_latest: false
+          files: toquimetro/toquimetro.apk
+          body: |
+            APK de Toquímetro compilado desde ${{ github.sha }}.
+            Descárgalo en tu Android y ábrelo para instalar (permite "instalar apps desconocidas").

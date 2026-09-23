@@ -1,0 +1,15 @@
+{
+  "appId": "com.jairo.toquimetro",
+  "appName": "Toquímetro",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0B1120"
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0B1120",
+      "overlaysWebView": false
+    }
+  }
+}
