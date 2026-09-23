@@ -17,20 +17,18 @@ jobs:
       run:
         working-directory: toquimetro
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: toquimetro/package-lock.json
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
-
-      - uses: android-actions/setup-android@v3
 
       - name: Instalar dependencias
         run: npm ci
@@ -38,6 +36,7 @@ jobs:
       - name: Copiar web a Android
         run: npx cap sync android
 
+      # ubuntu-latest ya trae el Android SDK (ANDROID_HOME).
       - name: Compilar APK
         working-directory: toquimetro/android
         run: |
