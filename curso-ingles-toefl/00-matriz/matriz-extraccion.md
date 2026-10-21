@@ -1,7 +1,7 @@
 ---
 proyecto: "Curso autodidacta de inglés → TOEFL ITP 500"
 documento: "Matriz de extracción + plantilla de ficha"
-version: 1.0
+version: 1.1
 fecha: 2026-10-21
 autor_proceso: "Jairo Aguirre Buendía (+ Claude como copiloto)"
 ---
@@ -64,10 +64,10 @@ llenan según lo que traiga el texto.
 
 | Campo | Valores posibles |
 |-------|------------------|
-| `macrohabilidad_toefl` | `Structure & Written Expression` · `Reading` · `Listening` · `Vocabulario` · `Lenguaje funcional` |
+| `macrohabilidad_toefl` | `Structure & Written Expression` · `Reading` · `Listening` · `Vocabulario` · `Lenguaje funcional` · `Aprendizaje autónomo` |
 | `categoria` | Tema amplio (ej. "Tiempos verbales", "Cláusulas relativas", "Estrategias de lectura") |
 | `subcategoria` | Tema puntual (ej. "Present Perfect", "Subject-verb agreement") |
-| `nivel_cefr` | `A2` · `B1` · `B2` |
+| `nivel_cefr` | `A2` · `B1` · `B2` (fichas `METO`: `Todos`) |
 | `prioridad_toefl` | `Alta` · `Media` · `Baja` |
 | `tipo_item_toefl` | Dónde aparece en el examen (ej. "Written Expression — error ID", "Structure — completion", "Reading — inference") |
 
@@ -94,8 +94,31 @@ llenan según lo que traiga el texto.
   - `LIST-###` → listening
   - `VOCAB-###` → vocabulario temático
   - `FUNC-###` → lenguaje funcional / expresiones e idioms
+  - `METO-###` → aprendizaje autónomo: motivación, estrategias, cómo se adquiere un idioma, cómo funcionan los exámenes *(v1.1)*
 - **Tags:** en minúsculas, con guion. Ej. `#toefl-structure #tenses #present-perfect`
 - **Una ficha = una idea extraíble.** Si una sección del libro trae 3 reglas distintas, se abren 3 fichas enlazadas.
+
+### E. Práctica estilo TOEFL (v1.1)
+
+Cada ficha de `GRAM` lleva **al menos 2** preguntas originales estilo TOEFL (las de `VOCAB`, `FUNC`,
+`READ` y `LIST` llevan al menos 1) en un bloque de código `quiz` (YAML). Son preguntas
+**redactadas para el curso**, no copiadas de los ejercicios del libro (esos se citan en `📝 Práctica`).
+El curso HTML las convierte en ejercicios interactivos.
+
+````markdown
+## 🧪 Práctica estilo TOEFL
+```quiz
+- tipo: structure          # structure · error-id · vocab · reading · listening
+  pregunta: "By the time we arrived, the movie ____."
+  opciones: ["already started", "had already started", "has already started", "was already start"]
+  respuesta: B
+  explicacion: "Acción anterior a otra en el pasado → past perfect."
+- tipo: error-id           # marca 4 partes con {A|...} {B|...} {C|...} {D|...}
+  pregunta: "The {A|number} of students {B|have} {C|increased} {D|dramatically}."
+  respuesta: B
+  explicacion: "'The number of' es singular → has."
+```
+````
 
 ---
 
@@ -264,6 +287,13 @@ En inglés americano (TOEFL) se acepta *Did you eat yet?*; en formal se prefiere
 - [ ] Paraphrase / restatement
 - [ ] Longer conversations: main idea & detail
 - [ ] Mini-talks / lectures
+
+### Aprendizaje autónomo (METO) — apoyo transversal (v1.1)
+- [ ] Motivación y metas
+- [ ] Cómo se adquiere un idioma (input, output, interacción)
+- [ ] Estrategias y hábitos de estudio
+- [ ] Práctica, repaso y memoria
+- [ ] Exámenes: cómo funcionan y cómo prepararse
 
 ### Vocabulario y lenguaje funcional — PRIORIDAD MEDIA
 - [ ] Academic word list (núcleo)

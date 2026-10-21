@@ -44,6 +44,20 @@ _(La idea central, clara y en tus palabras.)_
 ## 📝 Práctica
 - Ref. libro: _(pág. / ejercicio)_
 
+## 🧪 Práctica estilo TOEFL
+_(Preguntas originales, no copiadas del libro. Mín. 2 en GRAM, 1 en VOCAB/FUNC/READ/LIST.)_
+```quiz
+- tipo: structure
+  pregunta: "____"
+  opciones: ["", "", "", ""]
+  respuesta: A
+  explicacion: ""
+- tipo: error-id
+  pregunta: "{A|...} {B|...} {C|...} {D|...}"
+  respuesta: A
+  explicacion: ""
+```
+
 ## 🔗 Relacionado
 - [[GRAM-000 tema relacionado]]
 

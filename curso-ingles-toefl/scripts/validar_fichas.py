@@ -22,12 +22,18 @@ OBLIGATORIOS = [
 ]
 VALORES = {
     "macrohabilidad_toefl": {"Structure & Written Expression", "Reading", "Listening",
-                             "Vocabulario", "Lenguaje funcional"},
-    "nivel_cefr": {"A2", "B1", "B2"},
+                             "Vocabulario", "Lenguaje funcional", "Aprendizaje autónomo"},
+    "nivel_cefr": {"A2", "B1", "B2", "Todos"},
     "prioridad_toefl": {"Alta", "Media", "Baja"},
 }
-ID_RE = re.compile(r"^(GRAM|READ|LIST|VOCAB|FUNC)-\d{3}$")
-LINK_RE = re.compile(r"\[\[((?:GRAM|READ|LIST|VOCAB|FUNC)-\d{3})[^\]]*\]\]")
+PREFIJOS = "GRAM|READ|LIST|VOCAB|FUNC|METO"
+ID_RE = re.compile(rf"^({PREFIJOS})-\d{{3}}$")
+LINK_RE = re.compile(rf"\[\[((?:{PREFIJOS})-\d{{3}})[^\]]*\]\]")
+QUIZ_RE = re.compile(r"```quiz\s*\n(.*?)```", re.S)
+ERROR_ID_RE = re.compile(r"\{([A-D])\|[^}]+\}")
+# Mínimo de preguntas estilo TOEFL por prefijo (matriz v1.1, sección 3.E)
+MIN_QUIZ = {"GRAM": 2, "READ": 1, "LIST": 1, "VOCAB": 1, "FUNC": 1, "METO": 0}
+TIPOS_QUIZ = {"structure", "error-id", "vocab", "reading", "listening"}
 
 # Mapa de cobertura (sección 6 de la matriz): tema → palabras clave buscadas en
 # categoria, subcategoria y tags de cada ficha.
@@ -67,6 +73,13 @@ COBERTURA = {
         "Longer conversations": ["conversation", "conversación"],
         "Mini-talks / lectures": ["talk", "lecture"],
     },
+    "Aprendizaje autónomo": {
+        "Motivación y metas": ["motiva", "meta", "goal", "autoeficacia", "self-efficacy"],
+        "Cómo se adquiere un idioma": ["adquisición", "acquisition", "input", "output", "interacción", "interaction"],
+        "Estrategias y hábitos de estudio": ["estrategia", "strateg", "hábito", "autonom", "autónom"],
+        "Práctica, repaso y memoria": ["práctica", "practice", "repaso", "memoria", "memory", "repetición"],
+        "Exámenes: cómo funcionan y cómo prepararse": ["examen", "test", "evaluación", "assessment"],
+    },
     "Vocabulario y lenguaje funcional": {
         "Academic word list": ["academic", "awl"],
         "Phrasal verbs": ["phrasal"],
@@ -84,6 +97,47 @@ def leer_ficha(ruta):
     if len(partes) < 3:
         return None, texto
     return yaml.safe_load(partes[1]) or {}, partes[2]
+
+
+def leer_quiz(cuerpo):
+    """Devuelve la lista de preguntas de todos los bloques ```quiz de una ficha."""
+    preguntas = []
+    for bloque in QUIZ_RE.findall(cuerpo):
+        datos = yaml.safe_load(bloque) or []
+        preguntas.extend(datos if isinstance(datos, list) else [datos])
+    return preguntas
+
+
+def validar_quiz(cuerpo, prefijo):
+    try:
+        preguntas = leer_quiz(cuerpo)
+    except yaml.YAMLError as e:
+        return [f"bloque quiz con YAML inválido ({e.__class__.__name__})"]
+    errores = []
+    if len(preguntas) < MIN_QUIZ[prefijo]:
+        errores.append(f"tiene {len(preguntas)} preguntas quiz; mínimo {MIN_QUIZ[prefijo]}")
+    for i, q in enumerate(preguntas, 1):
+        if not isinstance(q, dict):
+            errores.append(f"quiz #{i}: no es un objeto")
+            continue
+        tipo, resp = q.get("tipo"), str(q.get("respuesta", ""))
+        if tipo not in TIPOS_QUIZ:
+            errores.append(f"quiz #{i}: tipo '{tipo}' no permitido")
+        if not str(q.get("pregunta") or "").strip() or not str(q.get("explicacion") or "").strip():
+            errores.append(f"quiz #{i}: falta pregunta o explicacion")
+        if tipo == "error-id":
+            letras = ERROR_ID_RE.findall(str(q.get("pregunta", "")))
+            if letras != ["A", "B", "C", "D"]:
+                errores.append(f"quiz #{i}: error-id necesita {{A|..}} {{B|..}} {{C|..}} {{D|..}} en orden")
+            if resp not in "ABCD" or len(resp) != 1:
+                errores.append(f"quiz #{i}: respuesta debe ser A–D")
+        elif tipo in TIPOS_QUIZ:
+            opciones = q.get("opciones") or []
+            if not isinstance(opciones, list) or len(opciones) != 4:
+                errores.append(f"quiz #{i}: necesita exactamente 4 opciones")
+            if resp not in "ABCD" or len(resp) != 1:
+                errores.append(f"quiz #{i}: respuesta debe ser A–D")
+    return errores
 
 
 def main():
@@ -117,6 +171,7 @@ def main():
                 errores.append(f"{rel}: '{campo}' = '{valor}' no es un valor permitido")
         if "EJEMPLO" in str(meta.get("fuente", "")):
             errores.append(f"{rel}: la fuente sigue siendo un placeholder")
+        errores.extend(f"{rel}: {e}" for e in validar_quiz(cuerpo, fid.split("-")[0]))
         fichas[fid] = (rel, meta)
         cuerpos[fid] = cuerpo
 
