@@ -1,0 +1,3 @@
+# Los libros originales no se suben al repo
+fuentes/*
+!fuentes/.gitkeep
