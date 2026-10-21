@@ -85,8 +85,18 @@ COBERTURA = {
         "Phrasal verbs": ["phrasal"],
         "Colocaciones": ["collocation", "colocación"],
         "Conectores de discurso": ["discourse", "transition", "discurso"],
+        "Formación de palabras": ["prefix", "suffix", "root", "word part", "prefijo", "sufijo", "raíz"],
+        "Sinónimos y palabras confusas": ["synonym", "sinónimo", "confus"],
     },
 }
+
+
+def normalizar(tema):
+    return str(tema or "").replace("–", "-").replace("—", "-").strip().lower()
+
+
+# tema_cobertura (matriz v1.1): valor exacto de un tema del mapa, o "Otro"
+TEMAS = {normalizar(t): (sec, t) for sec, temas in COBERTURA.items() for t in temas}
 
 
 def leer_ficha(ruta):
@@ -171,6 +181,9 @@ def main():
                 errores.append(f"{rel}: '{campo}' = '{valor}' no es un valor permitido")
         if "EJEMPLO" in str(meta.get("fuente", "")):
             errores.append(f"{rel}: la fuente sigue siendo un placeholder")
+        tema = meta.get("tema_cobertura")
+        if tema and normalizar(tema) != "otro" and normalizar(tema) not in TEMAS:
+            errores.append(f"{rel}: tema_cobertura '{tema}' no está en el mapa de cobertura")
         errores.extend(f"{rel}: {e}" for e in validar_quiz(cuerpo, fid.split("-")[0]))
         fichas[fid] = (rel, meta)
         cuerpos[fid] = cuerpo
@@ -210,6 +223,12 @@ def escribir_indice(fichas):
 def escribir_cobertura(fichas):
     hits = defaultdict(list)
     for fid, (_, m) in fichas.items():
+        tema = normalizar(m.get("tema_cobertura"))
+        if tema in TEMAS:
+            hits[TEMAS[tema]].append((fid, m.get("fuente", "")))
+            continue
+        if tema == "otro":
+            continue
         texto = " ".join([str(m.get("categoria", "")), str(m.get("subcategoria", "")),
                           " ".join(map(str, m.get("tags") or []))]).lower()
         for seccion, temas in COBERTURA.items():
