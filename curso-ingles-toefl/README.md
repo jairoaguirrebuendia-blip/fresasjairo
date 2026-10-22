@@ -21,8 +21,12 @@ curso-ingles-toefl/
 │   └── cobertura.md      ← checklist TOEFL generado (qué temas ya están cubiertos)
 ├── scripts/
 │   ├── intake.sh          ← descomprime el paquete y hace el inventario
-│   └── validar_fichas.py  ← valida fichas, IDs, enlaces; regenera índice y cobertura
-└── curso-html/     ← Etapa 3: el curso navegable
+│   ├── validar_fichas.py  ← valida fichas, IDs, enlaces y quizzes; regenera índice y cobertura
+│   ├── construir_curso.py ← genera el curso HTML desde las fichas
+│   └── curso_plantilla.html
+└── curso-html/
+    ├── index.html      ← el curso: ábrelo en el navegador (funciona sin servidor)
+    └── fragmento.html  ← mismo curso, versión para publicar como Artifact
 ```
 
 ## Cómo se procesa un paquete (multi-agente)
@@ -37,7 +41,12 @@ curso-ingles-toefl/
    revisa campos obligatorios, valores permitidos, IDs duplicados y enlaces rotos, y
    regenera índice y cobertura. Los temas que se repiten entre libros se enlazan.
 4. **Tu revisión (Etapa 2):** revisas las fichas, ajustamos la matriz si hace falta.
-5. **Curso HTML (Etapa 3):** se arma a partir del corpus validado.
+5. **Curso HTML (Etapa 3):** `python3 scripts/construir_curso.py` → `curso-html/index.html`.
+   Publicado en: https://claude.ai/artifact/7hN2S3auDHqiXnbHBWxG7A
+
+## Estado (paquete 1)
+17 de 19 documentos extraídos (2 llegaron vacíos): **347 fichas · 616 preguntas**.
+Detalle por libro en `registro/documentos.md`; cobertura TOEFL en `registro/cobertura.md`.
 
 ## Nota sobre derechos de autor
 Los libros originales se quedan en `fuentes/` (ignorado por git). Las fichas son
