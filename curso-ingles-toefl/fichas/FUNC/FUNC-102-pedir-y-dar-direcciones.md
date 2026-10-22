@@ -1,7 +1,7 @@
 ---
 id: FUNC-102
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheets 14a y 14b"
 seccion: "Where's the Park School of English? — Following directions; asking and saying where places are"

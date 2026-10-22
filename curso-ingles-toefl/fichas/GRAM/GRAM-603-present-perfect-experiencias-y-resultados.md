@@ -1,7 +1,7 @@
 ---
 id: GRAM-603
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheets 21 y 22"
 seccion: "Experiences (present perfect for experiences) / What's happened? (present perfect for past actions with present results)"

@@ -1,7 +1,7 @@
 ---
 id: FUNC-103
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheet 16"
 seccion: "Invitation dominoes — Making invitations; prepositions of time and place"

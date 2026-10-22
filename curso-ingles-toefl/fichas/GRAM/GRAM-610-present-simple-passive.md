@@ -1,7 +1,7 @@
 ---
 id: GRAM-610
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheet 34"
 seccion: "What do you know about the world? — Present simple passive"

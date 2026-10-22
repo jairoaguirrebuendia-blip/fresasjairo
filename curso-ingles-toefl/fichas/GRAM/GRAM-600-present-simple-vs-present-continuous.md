@@ -1,7 +1,7 @@
 ---
 id: GRAM-600
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheet 5 (número inferido por el orden del índice; OCR dañado)"
 seccion: "But what are they doing now? — Present simple for permanent states / present continuous for temporary actions"

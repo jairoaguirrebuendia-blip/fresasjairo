@@ -1,7 +1,7 @@
 ---
 id: GRAM-608
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheet 32; Progress check 36–40b"
 seccion: "Strange things happen… — Past continuous with while and when / Sentence dominoes"

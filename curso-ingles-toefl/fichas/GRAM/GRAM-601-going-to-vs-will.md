@@ -1,7 +1,7 @@
 ---
 id: GRAM-601
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheets 12 y 13"
 seccion: "Horoscope consequences (will for predictions) / Getting ready to go (going to for plans, will for decisions)"

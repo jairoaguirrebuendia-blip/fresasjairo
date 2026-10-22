@@ -1,7 +1,7 @@
 ---
 id: GRAM-606
 fuente: "Reward Pre-intermediate Resource Pack"
-autor: "Ilegible en el OCR (portada: iusan Kab / The Lake School of English; posiblemente Susan Kay — sin confirmar)"
+autor: "Ilegible en el OCR (portada: 'iusan Kab' / 'The Lake School of English'; posiblemente Susan Kay — sin confirmar)"
 edicion_anio: "1999 (© Macmillan Publishers Limited)"
 capitulo: "Worksheets 26, 27 y 28"
 seccion: "My ideal world (must/mustn't) / Challenges (can, could for ability) / Written and unwritten rules around the world (can, can't for permission and prohibition)"
