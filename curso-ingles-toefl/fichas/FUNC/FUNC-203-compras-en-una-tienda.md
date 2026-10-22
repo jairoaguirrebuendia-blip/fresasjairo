@@ -61,8 +61,8 @@ Seguir una compra: ofrecimiento del vendedor, talla, probarse ropa, quejas sobre
 ```quiz
 - tipo: listening
   pregunta: "Woman: These boots are really comfortable, but they're a little more than I wanted to spend. Man: We have a similar pair on sale over there. What does the man imply?"
-  opciones: ["The woman could buy a cheaper pair.", "The boots are not comfortable.", "The store does not accept credit cards.", "The woman should try on a larger size."]
-  respuesta: A
+  opciones: ["The boots are not comfortable.", "The store does not accept credit cards.", "The woman could buy a cheaper pair.", "The woman should try on a larger size."]
+  respuesta: C
   explicacion: "Ella se queja del precio; él sugiere un par parecido 'on sale' (rebajado), o sea, más barato. Es una sugerencia implícita."
 ```
 

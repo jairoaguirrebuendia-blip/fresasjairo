@@ -60,8 +60,8 @@ En inglés el rechazo cortés casi nunca es directo. Patrón típico:
 ```quiz
 - tipo: listening
   pregunta: "Man: A few of us are going hiking on Saturday. Want to come along? Woman: I'd love to, but I promised my sister I'd help her move. What does the woman mean?"
-  opciones: ["She cannot go hiking on Saturday.", "She will go hiking with her sister.", "She loves hiking more than moving.", "She will help the man move on Saturday."]
-  respuesta: A
+  opciones: ["She will go hiking with her sister.", "She loves hiking more than moving.", "She cannot go hiking on Saturday.", "She will help the man move on Saturday."]
+  respuesta: C
   explicacion: "'I'd love to, but…' + excusa = rechazo cortés. Ya tiene un compromiso (ayudar a su hermana a mudarse)."
 ```
 

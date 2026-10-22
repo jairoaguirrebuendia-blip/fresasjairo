@@ -61,13 +61,13 @@ Los diálogos del TOEFL ocurren casi siempre en una universidad estadounidense: 
 ```quiz
 - tipo: listening
   pregunta: "Man: Can you come to the movies tonight? Woman: I wish I could, but I'm snowed under with lab reports. What does the woman mean?"
-  opciones: ["She has too much work to go.", "The weather is too bad to go out.", "She already saw the movie.", "She finished her lab reports early."]
-  respuesta: A
+  opciones: ["The weather is too bad to go out.", "She already saw the movie.", "She has too much work to go.", "She finished her lab reports early."]
+  respuesta: C
   explicacion: "'Be snowed under' = tener demasiado trabajo; no tiene nada que ver con el clima (trampa literal)."
 - tipo: vocab
   pregunta: "I missed Monday's lecture. Could you fill me in on what the professor said? 'Fill me in on' means:"
-  opciones: ["tell me about", "write down", "complete a form about", "repeat loudly"]
-  respuesta: A
+  opciones: ["write down", "complete a form about", "repeat loudly", "tell me about"]
+  respuesta: D
   explicacion: "'Fill someone in on something' = informar a alguien de lo que se perdió."
 ```
 

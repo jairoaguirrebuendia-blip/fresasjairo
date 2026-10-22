@@ -65,13 +65,13 @@ Reconocer y usar correctamente *would rather*, *would prefer*, *prefer X to Y*, 
 ```quiz
 - tipo: listening
   pregunta: "Woman: Do you want to take the bus or walk to the museum? Man: I'd rather not walk in this heat. What does the man mean?"
-  opciones: ["He prefers to take the bus.", "He would like to walk to the museum.", "He doesn't want to go to the museum.", "He doesn't mind the heat."]
-  respuesta: A
+  opciones: ["He would like to walk to the museum.", "He prefers to take the bus.", "He doesn't want to go to the museum.", "He doesn't mind the heat."]
+  respuesta: B
   explicacion: "'I'd rather not walk' = prefiero no caminar; entre las dos opciones, elige el autobús. No rechaza el museo."
 - tipo: structure
   pregunta: "Many students prefer studying in groups ____ alone."
-  opciones: ["to studying", "than study", "rather study", "that studying"]
-  respuesta: A
+  opciones: ["than study", "rather study", "that studying", "to studying"]
+  respuesta: D
   explicacion: "Patrón 'prefer X to Y' con formas paralelas: prefer studying … to studying."
 ```
 

@@ -63,13 +63,13 @@ Un phrasal verb es un verbo distinto de su verbo base (*put* ≠ *put off*). En 
 ```quiz
 - tipo: vocab
   pregunta: "Because of the storm, the outdoor graduation ceremony was put off until Sunday. 'Put off' is closest in meaning to:"
-  opciones: ["postponed", "cancelled", "moved indoors", "shortened"]
-  respuesta: A
+  opciones: ["cancelled", "postponed", "moved indoors", "shortened"]
+  respuesta: B
   explicacion: "'Put off … until Sunday' = posponer. 'Cancelled' sería 'called off'."
 - tipo: listening
   pregunta: "Man: Are you still going to Mexico in June? Woman: No, the trip fell through when my roommate backed out. What does the woman mean?"
-  opciones: ["The trip did not happen because her roommate decided not to go.", "She fell during the trip to Mexico.", "Her roommate went to Mexico without her.", "The trip was moved to a later month."]
-  respuesta: A
+  opciones: ["She fell during the trip to Mexico.", "Her roommate went to Mexico without her.", "The trip was moved to a later month.", "The trip did not happen because her roommate decided not to go."]
+  respuesta: D
   explicacion: "'Fall through' = el plan fracasó; 'back out' = echarse atrás de un compromiso."
 ```
 

@@ -68,9 +68,9 @@ El libro: slang es "highly informal speech that is outside conventional or stand
 ```quiz
 - tipo: listening
   pregunta: "Woman: How was the chemistry quiz? Man: A piece of cake. What does the man mean?"
-  opciones: ["The quiz was very easy.", "He ate cake before the quiz.", "He only finished part of the quiz.", "The quiz was about food chemistry."]
-  respuesta: A
-  explicacion: "'A piece of cake' = muy fácil. La opción B es la trampa literal."
+  opciones: ["He ate cake before the quiz.", "He only finished part of the quiz.", "The quiz was about food chemistry.", "The quiz was very easy."]
+  respuesta: D
+  explicacion: "'A piece of cake' = muy fácil. La opción 'He ate cake…' es la trampa literal."
 - tipo: vocab
   pregunta: "Jake was going to give the speech, but he got cold feet at the last minute. This means Jake:"
   opciones: ["became too nervous to do it", "caught a cold", "forgot the speech", "arrived late"]

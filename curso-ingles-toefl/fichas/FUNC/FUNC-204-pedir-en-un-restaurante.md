@@ -61,8 +61,8 @@ Reconocer las fórmulas del mesero y del cliente, e inferir el lugar y la relaci
 ```quiz
 - tipo: listening
   pregunta: "Man: I'll have the grilled salmon, please. Woman: I'm afraid we've just run out of it, but the chicken is excellent tonight. What does the woman mean?"
-  opciones: ["The salmon is not available, so she recommends the chicken.", "She is afraid of the salmon.", "The man should order quickly.", "The chicken is too expensive."]
-  respuesta: A
+  opciones: ["She is afraid of the salmon.", "The man should order quickly.", "The chicken is too expensive.", "The salmon is not available, so she recommends the chicken."]
+  respuesta: D
   explicacion: "'I'm afraid…' anuncia una mala noticia con cortesía (no miedo); 'run out of' = acabarse. Luego sugiere otro plato."
 ```
 

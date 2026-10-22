@@ -62,9 +62,9 @@ En Listening Part A, cuando el segundo hablante responde con un idiom, **la opci
 ```quiz
 - tipo: listening
   pregunta: "Man: I've failed this driving test twice already. Woman: Hang in there. Third time's the charm. What does the woman mean?"
-  opciones: ["The man should keep trying.", "The man should hold on to the steering wheel.", "The man should wait before driving again.", "The man will need to take the test three more times."]
-  respuesta: A
-  explicacion: "'Hang in there' = no te rindas; 'third time's the charm' = a la tercera va la vencida. B toma 'hang/hold' literalmente."
+  opciones: ["The man should hold on to the steering wheel.", "The man should wait before driving again.", "The man should keep trying.", "The man will need to take the test three more times."]
+  respuesta: C
+  explicacion: "'Hang in there' = no te rindas; 'third time's the charm' = a la tercera va la vencida. La opción del volante toma 'hang/hold' literalmente."
 - tipo: listening
   pregunta: "Woman: Did you finish the report for the committee? Man: I've had to put it on the back burner until the budget is approved. What does the man mean?"
   opciones: ["He has postponed working on the report.", "He burned the report by accident.", "He finished the report early.", "He gave the report to the committee."]

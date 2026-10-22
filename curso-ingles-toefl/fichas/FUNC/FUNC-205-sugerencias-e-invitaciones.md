@@ -65,8 +65,8 @@ Aceptar: **That sounds good (to me) / Sounds great / Great idea! / I'd love to /
 ```quiz
 - tipo: listening
   pregunta: "Woman: I'm too tired to cook tonight. Man: Why don't we just order a pizza? What does the man suggest?"
-  opciones: ["Getting food delivered", "Cooking together later", "Asking why she is tired", "Going out to a restaurant"]
-  respuesta: A
+  opciones: ["Cooking together later", "Getting food delivered", "Asking why she is tired", "Going out to a restaurant"]
+  respuesta: B
   explicacion: "'Why don't we…?' es una sugerencia, no una pregunta por la razón. 'Order a pizza' = pedirla a domicilio."
 ```
 

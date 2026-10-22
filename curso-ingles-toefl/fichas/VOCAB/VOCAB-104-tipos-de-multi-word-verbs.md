@@ -67,8 +67,8 @@ El libro: "a multi-word verb is still a verb… 'Get' and 'get up' are two diffe
   explicacion: "'Look forward to' termina en la preposición 'to' → gerundio: 'to hearing'."
 - tipo: vocab
   pregunta: "Which sentence is correct?"
-  opciones: ["I wrote down the number and later I looked it up.", "I wrote the number and later I looked up it.", "Please look the children after tonight.", "We have run out it."]
-  respuesta: A
+  opciones: ["I wrote the number and later I looked up it.", "Please look the children after tonight.", "I wrote down the number and later I looked it up.", "We have run out it."]
+  respuesta: C
   explicacion: "Con pronombre, el phrasal verb separable se separa ('looked it up'). 'Look after' y 'run out of' son inseparables."
 ```
 

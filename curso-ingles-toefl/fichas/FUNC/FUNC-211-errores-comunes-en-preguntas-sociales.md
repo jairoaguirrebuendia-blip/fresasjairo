@@ -62,8 +62,8 @@ Evitar los errores típicos de orden y de fórmula en preguntas cotidianas, sobr
 ```quiz
 - tipo: structure
   pregunta: "The receptionist asked me ____."
-  opciones: ["when my appointment was", "when was my appointment", "when did my appointment", "my appointment was when"]
-  respuesta: A
+  opciones: ["when was my appointment", "when my appointment was", "when did my appointment", "my appointment was when"]
+  respuesta: B
   explicacion: "Pregunta indirecta: después de 'asked me' se usa orden afirmativo (wh- + sujeto + verbo), sin inversión."
 - tipo: error-id
   pregunta: "Could you {A|tell} me {B|where} {C|is the} {D|bookstore}?"

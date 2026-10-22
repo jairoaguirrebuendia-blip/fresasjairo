@@ -61,13 +61,13 @@ Pedir permiso (*Can I borrow…?*), entender un permiso condicionado (*OK then, 
 ```quiz
 - tipo: listening
   pregunta: "Man: Can I borrow your laptop this afternoon? Woman: Sure, as long as you bring it back before my seminar at five. What does the woman mean?"
-  opciones: ["The man may use it if he returns it by five.", "She needs the laptop all afternoon.", "The man must attend her seminar.", "She will buy a new laptop at five."]
-  respuesta: A
+  opciones: ["She needs the laptop all afternoon.", "The man must attend her seminar.", "The man may use it if he returns it by five.", "She will buy a new laptop at five."]
+  respuesta: C
   explicacion: "'Sure, as long as…' (= provided) concede permiso con una condición: devolverlo antes de las cinco."
 - tipo: structure
   pregunta: "Visitors ____ wear a tie, but a jacket is not required."
-  opciones: ["must", "don't have to", "must not", "had better not"]
-  respuesta: A
+  opciones: ["don't have to", "must not", "had better not", "must"]
+  respuesta: D
   explicacion: "Se contrasta una obligación (corbata) con algo no requerido (saco): 'must'. 'Don't have to' indicaría falta de obligación."
 ```
 

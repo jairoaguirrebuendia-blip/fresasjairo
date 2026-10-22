@@ -56,8 +56,8 @@ Una petición cortés suele abrirse con **Excuse me** y usar un modal (*Can you 
 ```quiz
 - tipo: listening
   pregunta: "Man: Thanks so much for lending me your notes. Woman: Don't mention it. What does the woman mean?"
-  opciones: ["She is glad to help.", "She does not want him to tell anyone.", "She forgot about the notes.", "She wants the notes back now."]
-  respuesta: A
+  opciones: ["She does not want him to tell anyone.", "She forgot about the notes.", "She wants the notes back now.", "She is glad to help."]
+  respuesta: D
   explicacion: "'Don't mention it' es una respuesta fija a 'thank you' = de nada. La opción B toma la frase de forma literal, trampa típica del TOEFL."
 ```
 

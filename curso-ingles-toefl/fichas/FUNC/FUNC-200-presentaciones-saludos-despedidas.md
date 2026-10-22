@@ -59,8 +59,8 @@ Saludos y despedidas son **pares adyacentes**: a cada fórmula le corresponde un
 ```quiz
 - tipo: listening
   pregunta: "Man: I haven't seen you since the conference. How have you been? Woman: Busier than ever, but I can't complain. What does the woman mean?"
-  opciones: ["She has been very busy but is basically fine.", "She did not attend the conference.", "She wants to complain about her job.", "She has been sick since the conference."]
-  respuesta: A
+  opciones: ["She did not attend the conference.", "She has been very busy but is basically fine.", "She wants to complain about her job.", "She has been sick since the conference."]
+  respuesta: B
   explicacion: "'I can't complain' = estoy bien, no tengo motivos de queja. Aunque esté ocupada, su estado general es bueno; no quiere quejarse."
 ```
 

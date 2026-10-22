@@ -57,7 +57,7 @@ Para preguntar por un lugar se usa **Is there a + lugar + near here?**; para la 
   pregunta: "Woman: Is the library far from here? Man: Not really. It's just past the second traffic light. What does the man mean?"
   opciones: ["The library is fairly close.", "He doesn't really know where the library is.", "The library is far away.", "The library is closed today."]
   respuesta: A
-  explicacion: "'Not really' contesta 'Is it far?' con una negación suave: no está lejos. La B confunde 'not really' con 'no lo sé'."
+  explicacion: "'Not really' contesta 'Is it far?' con una negación suave: no está lejos. La opción 'He doesn't really know…' confunde 'not really' con 'no lo sé'."
 ```
 
 ## 🔗 Relacionado

@@ -65,7 +65,7 @@ Elegir el pronombre relativo correcto y puntuar las cláusulas restrictivas y no
   pregunta: "The scientist ____ discovery changed modern medicine received the Nobel Prize."
   opciones: ["who", "whom", "whose", "which"]
   respuesta: C
-  explicacion: "Relación de posesión (la descubierta del científico) → 'whose + noun'."
+  explicacion: "Relación de posesión (el descubrimiento del científico) → 'whose + noun'."
 - tipo: error-id
   pregunta: "The novel {A|that} I borrowed {B|it} from the library {C|is} {D|overdue}."
   respuesta: B

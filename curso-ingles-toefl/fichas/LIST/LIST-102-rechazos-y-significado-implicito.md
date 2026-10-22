@@ -69,8 +69,8 @@ Señales de aceptación: *That'd be great, Sounds good to me, I'll take it.*
   explicacion: "'Well…' + excusa (examen mañana) = rechazo implícito: necesita estudiar esa tarde."
 - tipo: listening
   pregunta: "Woman: Is there any chance I can still register for the seminar? Man: I'm afraid it's been full since last week. What does the man mean?"
-  opciones: ["The woman cannot register for the seminar.", "The man is worried about the seminar.", "The seminar will be held next week.", "The woman registered last week."]
-  respuesta: A
+  opciones: ["The man is worried about the seminar.", "The seminar will be held next week.", "The woman cannot register for the seminar.", "The woman registered last week."]
+  respuesta: C
   explicacion: "'I'm afraid…' anuncia una negativa cortés; el seminario está lleno, ella no puede inscribirse."
 ```
 

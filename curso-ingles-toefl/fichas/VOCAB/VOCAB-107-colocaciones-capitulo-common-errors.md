@@ -68,8 +68,8 @@ Una colocación es una combinación fija que "suena natural": *do a favor* (no *
   explicacion: "La colocación correcta es 'interested in', no 'interested on'."
 - tipo: vocab
   pregunta: "Could you ____ me a favor and close the window?"
-  opciones: ["do", "make", "give", "take"]
-  respuesta: A
+  opciones: ["make", "give", "do", "take"]
+  respuesta: C
   explicacion: "Colocación fija: 'do someone a favor'. 'Give/make a favor' son calcos del español."
 ```
 

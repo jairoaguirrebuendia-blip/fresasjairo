@@ -75,8 +75,8 @@ Expresiones fijas: no se cambian palabras (*hit the nail on the head*, no *hit t
   explicacion: "'Hit the nail on the head' = dar en el clavo, describir algo con exactitud."
 - tipo: listening
   pregunta: "Man: The computer deleted my whole paper. Woman: So you have to start from scratch? What does the woman ask?"
-  opciones: ["Whether the man must begin the paper again", "Whether the man scratched the computer", "Whether the paper is almost finished", "Whether the man can recover the file"]
-  respuesta: A
+  opciones: ["Whether the man scratched the computer", "Whether the man must begin the paper again", "Whether the paper is almost finished", "Whether the man can recover the file"]
+  respuesta: B
   explicacion: "'Start from scratch' = empezar desde cero."
 ```
 

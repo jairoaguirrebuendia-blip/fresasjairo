@@ -62,13 +62,13 @@ Cuidado con *Why don't you…?* en tono de pregunta real ("¿por qué no viniste
 ```quiz
 - tipo: listening
   pregunta: "Woman: I can never find a seat in the library during exam week. Man: Have you tried going there before the morning rush? What does the man suggest?"
-  opciones: ["Arriving at the library early", "Studying at home instead", "Asking the librarian for a seat", "Rushing through her exams"]
-  respuesta: A
+  opciones: ["Studying at home instead", "Arriving at the library early", "Asking the librarian for a seat", "Rushing through her exams"]
+  respuesta: B
   explicacion: "'Have you tried + -ing' introduce una sugerencia: ir antes de la hora pico de la mañana, es decir, temprano."
 - tipo: listening
   pregunta: "Man: My back hurts after sitting at the computer all day. Woman: You'd better take a break every hour. What does the woman suggest?"
-  opciones: ["Resting regularly", "Buying a new computer", "Seeing a doctor immediately", "Working fewer days"]
-  respuesta: A
+  opciones: ["Buying a new computer", "Seeing a doctor immediately", "Working fewer days", "Resting regularly"]
+  respuesta: D
   explicacion: "'You'd better + verbo' = consejo: hacer pausas cada hora."
 ```
 

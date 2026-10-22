@@ -59,8 +59,8 @@ Contrastes clave: **give up** (dejar un hábito) vs **take up** (empezar un háb
 ```quiz
 - tipo: listening
   pregunta: "Woman: Are you still drinking five cups of coffee a day? Man: I've cut down on it, but I haven't given it up completely. What does the man mean?"
-  opciones: ["He drinks less coffee than before.", "He has stopped drinking coffee.", "He drinks more coffee now.", "He has started drinking tea instead."]
-  respuesta: A
+  opciones: ["He has stopped drinking coffee.", "He drinks less coffee than before.", "He drinks more coffee now.", "He has started drinking tea instead."]
+  respuesta: B
   explicacion: "'Cut down on' = reducir; 'haven't given it up' = no lo ha dejado. Conclusión: toma menos café."
 ```
 

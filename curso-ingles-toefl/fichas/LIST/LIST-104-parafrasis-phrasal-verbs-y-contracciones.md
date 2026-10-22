@@ -64,14 +64,14 @@ Decodificar contracciones que suenan igual pero significan cosas distintas y rec
 ```quiz
 - tipo: listening
   pregunta: "Woman: Did you talk to Professor Lee about your grade? Man: She's been out of town all week. What does the man mean?"
-  opciones: ["He hasn't been able to see the professor.", "The professor is leaving town next week.", "The professor is going to change his grade.", "He was out of town all week."]
-  respuesta: A
+  opciones: ["The professor is leaving town next week.", "The professor is going to change his grade.", "He hasn't been able to see the professor.", "He was out of town all week."]
+  respuesta: C
   explicacion: "'She's been' = she has been (participio 'been'): la profesora ha estado fuera, así que él no ha podido hablar con ella."
 - tipo: listening
   pregunta: "Man: Is the department still holding the picnic on Saturday? Woman: No, they've called it off. What does the woman mean?"
   opciones: ["The picnic has been cancelled.", "The picnic has been postponed until Sunday.", "The department called everyone about the picnic.", "The picnic will be held indoors."]
   respuesta: A
-  explicacion: "'Call off' = cancelar. La opción C es trampa por la palabra 'called'."
+  explicacion: "'Call off' = cancelar. La opción 'called everyone' es trampa por la palabra 'called'."
 ```
 
 ## 🔗 Relacionado

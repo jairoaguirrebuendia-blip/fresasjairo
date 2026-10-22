@@ -64,13 +64,13 @@ Estrategia: identifica primero si la respuesta es **+** o **–**, luego busca l
 ```quiz
 - tipo: listening
   pregunta: "Woman: I think the professor should give us more time for the final project. Man: I couldn't agree more. What does the man mean?"
-  opciones: ["He completely agrees with the woman.", "He disagrees with the woman.", "He cannot decide whether to agree.", "He thinks the project should be shorter."]
-  respuesta: A
+  opciones: ["He disagrees with the woman.", "He cannot decide whether to agree.", "He thinks the project should be shorter.", "He completely agrees with the woman."]
+  respuesta: D
   explicacion: "'I couldn't agree more' = no es posible estar más de acuerdo: acuerdo total. La negación aquí no indica desacuerdo."
 - tipo: listening
   pregunta: "Man: Are you upset that the party was cancelled? Woman: Honestly, I couldn't care less. What does the woman mean?"
-  opciones: ["She is not bothered at all.", "She is very disappointed.", "She wants to plan a new party.", "She didn't know about the party."]
-  respuesta: A
+  opciones: ["She is very disappointed.", "She is not bothered at all.", "She wants to plan a new party.", "She didn't know about the party."]
+  respuesta: B
   explicacion: "'Couldn't care less' = no le importa en absoluto; no está molesta."
 ```
 
