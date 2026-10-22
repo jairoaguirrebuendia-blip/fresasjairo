@@ -7,7 +7,9 @@ Genera:
   curso-html/index.html       documento completo (se abre directo en el navegador)
   curso-html/fragmento.html   mismo curso sin <!doctype>/<html>, para publicarlo como Artifact
 """
+import hashlib
 import json
+import random
 import re
 import sys
 from collections import defaultdict
@@ -89,6 +91,21 @@ def slug(texto):
     return re.sub(r"[^a-z0-9]+", "-", texto).strip("-")
 
 
+def barajar_opciones(q, semilla):
+    """Reordena las 4 opciones de forma estable por pregunta, para que la clave no se cargue a
+    una letra (las fichas tienden a poner la correcta en B). error-id no se toca: su letra es la
+    posición del segmento dentro de la oración."""
+    opciones = q.get("opciones")
+    letra = str(q.get("respuesta", "")).strip().upper()
+    if q.get("tipo") == "error-id" or not isinstance(opciones, list) or len(opciones) != 4 or letra not in "ABCD":
+        return q
+    orden = list(range(4))
+    random.Random(hashlib.md5(semilla.encode()).hexdigest()).shuffle(orden)
+    q["opciones"] = [opciones[j] for j in orden]
+    q["respuesta"] = "ABCD"[orden.index("ABCD".index(letra))]
+    return q
+
+
 def cuerpo_html(cuerpo, titulos):
     cuerpo = QUIZ_RE.sub("", cuerpo)
     # Quitar la sección de práctica TOEFL (se muestra como ejercicio interactivo)
@@ -149,8 +166,9 @@ def main():
             "seccion_libro": str(m.get("seccion") or ""),
             "paginas": str(m.get("paginas") or ""),
             "html": cuerpo_html(cuerpo, titulos),
-            "quiz": [{k: q.get(k) for k in ("tipo", "pregunta", "opciones", "respuesta", "explicacion")}
-                     for q in quiz],
+            "quiz": [barajar_opciones({k: q.get(k) for k in ("tipo", "pregunta", "opciones", "respuesta", "explicacion")},
+                                      f"{fid}#{i}")
+                     for i, q in enumerate(quiz)],
         }
         temas[(sid, nombre_tema)].append(fid)
         f = fuentes[fichas[fid]["fuente"]]
