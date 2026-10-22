@@ -15,7 +15,7 @@ prioridad_toefl: "Alta"
 tipo_item_toefl: "Structure — completion / Written Expression — error ID"
 tema_cobertura: "Conditionals (0–3)"
 tags: [toefl-structure, conditional, first-conditional, second-conditional, if-clause]
-fecha_extraccion: 2026-10-22
+fecha_extraccion: 2026-10-21
 ---
 
 # First and second conditional (GRAM-612)

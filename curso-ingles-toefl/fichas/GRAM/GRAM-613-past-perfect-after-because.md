@@ -15,7 +15,7 @@ prioridad_toefl: "Alta"
 tipo_item_toefl: "Structure — completion / Written Expression — error ID"
 tema_cobertura: "Verb tenses & forms"
 tags: [toefl-structure, tenses, past-perfect, after, because, sequence]
-fecha_extraccion: 2026-10-22
+fecha_extraccion: 2026-10-21
 ---
 
 # Past perfect con after y because (GRAM-613)

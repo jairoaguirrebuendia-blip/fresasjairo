@@ -71,16 +71,16 @@ Usar *both / either / neither* como determinantes y como conjunciones correlativ
   respuesta: C
   explicacion: "Falta paralelismo: tras 'neither complete' debe venir un adjetivo: 'nor easy to read'. Sobra 'it was'."
 - tipo: structure
-  pregunta: "____ of the two candidates had enough experience for the job."
-  opciones: ["Neither", "None", "Both", "No"]
+  pregunta: "The company rejected both applicants because ____ of them had enough experience."
+  opciones: ["neither", "either", "both", "none"]
   respuesta: A
-  explicacion: "Para dos personas en sentido negativo se usa 'Neither of', con verbo singular ('had'). 'None' es para tres o más; 'Both' cambia el sentido y 'No' no va con 'of'."
+  explicacion: "Se habla de dos personas y la idea es negativa (los rechazaron): 'neither of them', con verbo singular. 'either' exigiría un verbo negativo, 'both' contradice el rechazo y 'none' se usa para tres o más."
 ```
 
 ## 🔗 Relacionado
 - [[GRAM-205 Negative words and double negatives]]
 - [[GRAM-215 All, most, no, none]]
-- [[GRAM-247 Cohesion and coordinating conjunctions]]
+- [[GRAM-244 Cohesion and coordinating conjunctions]]
 
 ## 🗒️ Notas / Excepciones
-En la quiz 3 ambas *Both* y *Neither* son gramaticales en abstracto, pero *Both* exigiría *had* igual; se elige *Neither* porque "dos candidatos" + valoración negativa es el uso modelo del libro. (En el examen real, el contexto decide.)
+Recuerda que *neither of* + plural admite verbo singular o plural según el libro (*Neither of us was...* / *Neither of the children were...*); en registro formal se prefiere el singular.

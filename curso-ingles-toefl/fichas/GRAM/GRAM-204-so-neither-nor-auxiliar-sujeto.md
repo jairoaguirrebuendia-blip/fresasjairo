@@ -75,7 +75,7 @@ Usar respuestas cortas con el auxiliar correcto y la inversión tras *so / neith
 ## 🔗 Relacionado
 - [[GRAM-202 Word order in yes/no and wh-questions]]
 - [[GRAM-205 Negative words and double negatives]]
-- [[GRAM-246 Inversion and changing sentence focus]]
+- [[GRAM-243 Inversion and changing sentence focus]]
 
 ## 🗒️ Notas / Excepciones
 Una respuesta corta (*Yes, I will*) es más cortés que un simple *Yes*; repetir toda la pregunta puede sonar impaciente.
