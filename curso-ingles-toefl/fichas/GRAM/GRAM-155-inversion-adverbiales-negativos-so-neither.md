@@ -68,9 +68,9 @@ Aplicar la inversión **auxiliar + sujeto** tras expresiones negativas/restricti
   respuesta: B
   explicacion: "'Only after…' al inicio exige inversión auxiliar + sujeto: 'could astronomers observe'."
 - tipo: error-id
-  pregunta: "{A|Seldom} {B|a comet} {C|is} visible to the naked eye for {D|more than} a few weeks."
+  pregunta: "{A|Seldom} {B|a comet is} visible to the naked eye {C|for} more than {D|a few} weeks."
   respuesta: B
-  explicacion: "Tras 'Seldom' al inicio va inversión: 'Seldom is a comet visible…'. El orden sujeto + verbo es incorrecto (error en 'a comet' colocado antes del verbo)."
+  explicacion: "Tras 'Seldom' al inicio va inversión: 'Seldom is a comet visible…'. Con 'Seldom' al inicio no puede ir el orden normal sujeto + verbo."
 - tipo: structure
   pregunta: "The first experiment did not succeed, and ____."
   opciones: ["neither the second did", "the second neither did", "neither did the second", "so did the second"]
