@@ -2,47 +2,57 @@
 
 _Generado por `scripts/validar_fichas.py --cobertura`. `[x]` = ≥1 ficha · ⭐ = sólido (≥2 fuentes distintas)._
 
-## Structure & Written Expression — 0/18
+## Structure & Written Expression — 18/18
 
-- [ ] Subject–verb agreement
-- [ ] Verb tenses & forms
-- [ ] Gerunds & infinitives
-- [ ] Modals
-- [ ] Conditionals (0–3)
-- [ ] Passive voice
-- [ ] Articles & determiners
-- [ ] Nouns: count/noncount
-- [ ] Pronouns
-- [ ] Prepositions
-- [ ] Adjectives vs adverbs; comparisons
-- [ ] Parallel structure
-- [ ] Relative clauses
-- [ ] Conjunctions / connectors
-- [ ] Word order & inversion
-- [ ] Reduced / participial clauses
-- [ ] Sentence structure
-- [ ] Redundancy & word choice
+- [x] Subject–verb agreement ⭐ — GRAM-100, GRAM-101, GRAM-102, GRAM-201, GRAM-320, GRAM-507, GRAM-508
+- [x] Verb tenses & forms ⭐ — GRAM-103, GRAM-104, GRAM-105, GRAM-106, GRAM-107, GRAM-227, GRAM-228, GRAM-229, GRAM-400, GRAM-401, GRAM-402, GRAM-403, GRAM-404, GRAM-405, GRAM-406, GRAM-407, GRAM-408, GRAM-409, GRAM-410, GRAM-411, GRAM-412, GRAM-413, GRAM-414, GRAM-415, GRAM-416, GRAM-417, GRAM-505, GRAM-506, GRAM-600, GRAM-601, GRAM-603, GRAM-604, GRAM-608, GRAM-613
+- [x] Gerunds & infinitives ⭐ — FUNC-208, GRAM-108, GRAM-109, GRAM-110, GRAM-111, GRAM-112, GRAM-113, GRAM-231, GRAM-232, GRAM-303, GRAM-304, GRAM-305, GRAM-306, GRAM-307, GRAM-308, GRAM-309, GRAM-310, GRAM-518
+- [x] Modals ⭐ — FUNC-210, GRAM-114, GRAM-115, GRAM-116, GRAM-117, GRAM-118, GRAM-119, GRAM-235, GRAM-236, GRAM-237, GRAM-510, GRAM-606, GRAM-607
+- [x] Conditionals (0–3) ⭐ — GRAM-120, GRAM-121, GRAM-122, GRAM-123, GRAM-230, GRAM-612
+- [x] Passive voice ⭐ — GRAM-124, GRAM-125, GRAM-126, GRAM-234, GRAM-300, GRAM-301, GRAM-302, GRAM-509, GRAM-610
+- [x] Articles & determiners ⭐ — GRAM-127, GRAM-128, GRAM-129, GRAM-132, GRAM-133, GRAM-213, GRAM-214, GRAM-215, GRAM-218, GRAM-314, GRAM-315, GRAM-316, GRAM-317, GRAM-318, GRAM-319
+- [x] Nouns: count/noncount ⭐ — GRAM-130, GRAM-131, GRAM-134, GRAM-206, GRAM-207, GRAM-217, GRAM-311, GRAM-312, GRAM-313, GRAM-502, GRAM-602
+- [x] Pronouns ⭐ — GRAM-135, GRAM-208, GRAM-210, GRAM-211, GRAM-212, GRAM-503, GRAM-504
+- [x] Prepositions ⭐ — GRAM-136, GRAM-137, GRAM-138, GRAM-223, GRAM-225, GRAM-226, GRAM-512, GRAM-700, GRAM-701, GRAM-702, GRAM-703, GRAM-704
+- [x] Adjectives vs adverbs; comparisons ⭐ — GRAM-139, GRAM-140, GRAM-141, GRAM-142, GRAM-143, GRAM-144, GRAM-219, GRAM-220, GRAM-221, GRAM-222, GRAM-321, GRAM-323, GRAM-511
+- [x] Parallel structure — GRAM-216
+- [x] Relative clauses ⭐ — GRAM-238, GRAM-239, GRAM-324, GRAM-325, GRAM-326, GRAM-327, GRAM-328, GRAM-329, GRAM-330, GRAM-515, GRAM-605
+- [x] Conjunctions / connectors ⭐ — GRAM-241, GRAM-242, GRAM-244, GRAM-513, GRAM-514, GRAM-611
+- [x] Word order & inversion ⭐ — FUNC-211, GRAM-202, GRAM-203, GRAM-204, GRAM-243, GRAM-322, GRAM-609
+- [x] Reduced / participial clauses ⭐ — GRAM-240, GRAM-331, GRAM-332, GRAM-517
+- [x] Sentence structure ⭐ — GRAM-200, GRAM-209, GRAM-224, GRAM-233, GRAM-500, GRAM-501, GRAM-516
+- [x] Redundancy & word choice ⭐ — GRAM-205, GRAM-519
 
-## Reading — 0/7
+## Reading — 2/7
 
 - [ ] Main idea / topic
 - [ ] Supporting details
-- [ ] Vocabulary in context
+- [x] Vocabulary in context ⭐ — READ-100, READ-101, READ-102, READ-103, READ-104, READ-105, READ-106, READ-107, VOCAB-402
 - [ ] Pronoun reference
 - [ ] Inference
-- [ ] Author's purpose / tone
+- [x] Author's purpose / tone — READ-108
 - [ ] Text organization / cohesion
 
-## Listening — 0/4
+## Listening — 2/4
 
-- [ ] Short dialogues: idioms & implied meaning
-- [ ] Paraphrase / restatement
+- [x] Short dialogues: idioms & implied meaning ⭐ — FUNC-100, FUNC-101, FUNC-102, FUNC-103, FUNC-104, FUNC-105, FUNC-200, FUNC-201, FUNC-202, FUNC-203, FUNC-204, FUNC-205, FUNC-206, FUNC-209, LIST-100, LIST-101, LIST-102, LIST-103, VOCAB-105, VOCAB-106
+- [x] Paraphrase / restatement — LIST-104
 - [ ] Longer conversations
 - [ ] Mini-talks / lectures
 
-## Vocabulario y lenguaje funcional — 0/4
+## Aprendizaje autónomo — 5/5
 
-- [ ] Academic word list
-- [ ] Phrasal verbs
-- [ ] Colocaciones
-- [ ] Conectores de discurso
+- [x] Motivación y metas ⭐ — METO-204, METO-205, METO-209, METO-306, METO-400, METO-402, METO-500, METO-501, METO-503, METO-600, METO-601, METO-603, METO-604, METO-605, METO-607, METO-608, METO-707, METO-811
+- [x] Cómo se adquiere un idioma ⭐ — METO-200, METO-203, METO-208, METO-210, METO-700, METO-701, METO-800, METO-801, METO-808
+- [x] Estrategias y hábitos de estudio ⭐ — METO-106, METO-107, METO-109, METO-201, METO-207, METO-211, METO-300, METO-301, METO-302, METO-303, METO-304, METO-307, METO-401, METO-404, METO-405, METO-502, METO-504, METO-602, METO-609, METO-702, METO-703, METO-705, METO-706, METO-803, METO-806, METO-809, METO-810
+- [x] Práctica, repaso y memoria ⭐ — METO-105, METO-108, METO-202, METO-206, METO-305, METO-403, METO-505, METO-704, METO-802, METO-804, METO-807
+- [x] Exámenes: cómo funcionan y cómo prepararse ⭐ — METO-100, METO-101, METO-102, METO-103, METO-104, METO-406, METO-606, METO-805
+
+## Vocabulario y lenguaje funcional — 6/6
+
+- [x] Academic word list ⭐ — VOCAB-210, VOCAB-213, VOCAB-214, VOCAB-215, VOCAB-216, VOCAB-217, VOCAB-218, VOCAB-219, VOCAB-220, VOCAB-400
+- [x] Phrasal verbs — FUNC-207, VOCAB-100, VOCAB-101, VOCAB-102, VOCAB-103, VOCAB-104
+- [x] Colocaciones ⭐ — VOCAB-107, VOCAB-401
+- [x] Conectores de discurso — VOCAB-312, VOCAB-313, VOCAB-314
+- [x] Formación de palabras — VOCAB-200, VOCAB-201, VOCAB-202, VOCAB-203, VOCAB-204, VOCAB-205, VOCAB-206, VOCAB-207, VOCAB-208
+- [x] Sinónimos y palabras confusas ⭐ — VOCAB-211, VOCAB-212, VOCAB-300, VOCAB-301, VOCAB-302, VOCAB-303, VOCAB-304, VOCAB-305, VOCAB-306, VOCAB-307, VOCAB-308, VOCAB-309, VOCAB-310, VOCAB-311
