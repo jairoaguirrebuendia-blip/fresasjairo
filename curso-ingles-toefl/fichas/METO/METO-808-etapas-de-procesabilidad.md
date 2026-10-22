@@ -29,7 +29,7 @@ Entender que tu gramática avanza por **etapas fijas** y planear el estudio de l
 "At any stage of development the learner can produce and comprehend only those second language (L2) linguistic forms which the current state of the language processor can handle" (p. 159).
 - Ejemplo de preguntas en inglés (p. 160): Etapa 1 *He live here?* → Etapa 2 *Where he is?* → Etapa 3 *Where is he?* → Etapa 4 *Where has he been?* Quien intenta la etapa 4 antes de tiempo produce variantes como *Where he been?* o *Where he has been?*
 - La jerarquía va de lo local a lo global (p. 163): palabra sola → marca en la palabra (*talked*) → concordancia dentro de la frase nominal (*two kids*) → concordancia entre sujeto y verbo → orden de la oración.
-- Por eso "stages of acquisition cannot be skipped through formal instruction" (p. 176) y "practice does not make perfect" si la estructura está fuera de tu nivel (p. 177). Según Ortega (cap. 13), la enseñanza útil apunta a la etapa **siguiente** a la tuya.
+- Por eso "stages of acquisition cannot be skipped through formal instruction" (p. 176) y "practice does not make perfect" si la estructura está fuera de tu nivel (p. 177). Según Ortega (cap. 13, p. 262), para esta teoría la instrucción óptima es la "congruent with the current developmental level and readiness to learn" de cada aprendiz.
 
 ## 🛠️ Cómo aplicarlo como autodidacta
 1. **Ordena tu plan de gramática por complejidad:** primero plurales y tiempos simples; luego concordancia sujeto–verbo; luego orden de palabras, inversión y cláusulas.
