@@ -67,7 +67,7 @@ Generalizar correctamente (sin *the* ante plurales e incontables) y saber cuánd
   explicacion: "Generalización con plural → sin artículo: 'Honeybees play…'."
 - tipo: structure
   pregunta: "____ of the Industrial Revolution transformed working conditions in Europe."
-  opciones: ["Technology", "The technology", "A technology", "Technologies"]
+  opciones: ["Technology", "The technology", "A technology", "Technology's"]
   respuesta: B
   explicacion: "Sustantivo definido por una frase con 'of' → 'The technology of…'."
 ```

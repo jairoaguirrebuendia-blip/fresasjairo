@@ -61,9 +61,9 @@ Colocar adverbios en la posición correcta y no separar el verbo de su objeto.
 ## 🧪 Práctica estilo TOEFL
 ```quiz
 - tipo: error-id
-  pregunta: "Honeybees {A|communicate} {B|precisely} {C|the location} of food {D|to other bees} through a special dance."
-  respuesta: B
-  explicacion: "El adverbio de modo no debe separar el verbo de su objeto: 'communicate the location of food precisely…' (o 'precisely communicate')."
+  pregunta: "Desert plants {A|usually are} {B|able} to survive {C|long} periods {D|without} rain."
+  respuesta: A
+  explicacion: "Con 'be' como verbo principal, el adverbio de frecuencia va después: 'are usually able'."
 - tipo: structure
   pregunta: "The ancient road network ____ used, although parts of it remain visible."
   opciones: ["no longer is", "is no longer", "is any more", "no more is being"]

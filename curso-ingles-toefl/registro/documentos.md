@@ -21,7 +21,7 @@ Paquete 1 (`markdown_resultados.zip`, 2026-10-21): 19 documentos ya convertidos 
 | D15 | The Practical Study of Languages | H. Sweet | OUP 1964 (orig. 1899) | Método de estudio (METO) | METO-700..799 | extraído | 8 |
 | D16 | Theories in Second Language Acquisition | VanPatten & Williams (eds.) | 2nd ed., 2015, Routledge · ISBN 978-0-415-82421-7 | Adquisición (METO) | METO-800..899 | extraído | 12 |
 | D17 | English Pronunciation Made Simple | — | — | — | — | **vacío (0 bytes)** — volver a exportar | 0 |
-| D18 | Oxford Guide to English Grammar | J. Eastwood | 1994, OUP · ISBN 0-19-431351-4 | Gramática de referencia (núcleo) | GRAM-100..199 | en extracción | 30 |
+| D18 | Oxford Guide to English Grammar | J. Eastwood | 1994, OUP · ISBN 0-19-431351-4 | Gramática de referencia (núcleo) | GRAM-100..199 | extraído | 60 |
 | D19 | The English Tenses: Practical Grammar Guide | P. Williams | 2014 (ebook) | Tiempos verbales | GRAM-400..499 | extraído | 18 |
 
 **Estados:** `recibido` → `en extracción` → `extraído` → `revisado por Jairo` → `compilado`

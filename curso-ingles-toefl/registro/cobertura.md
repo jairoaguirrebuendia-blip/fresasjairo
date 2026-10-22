@@ -15,13 +15,13 @@ _Generado por `scripts/validar_fichas.py --cobertura`. `[x]` = ≥1 ficha · ⭐
 - [x] Pronouns ⭐ — GRAM-135, GRAM-208, GRAM-210, GRAM-211, GRAM-212, GRAM-503, GRAM-504
 - [x] Prepositions ⭐ — GRAM-136, GRAM-137, GRAM-138, GRAM-223, GRAM-225, GRAM-226, GRAM-512, GRAM-700, GRAM-701, GRAM-702, GRAM-703, GRAM-704
 - [x] Adjectives vs adverbs; comparisons ⭐ — GRAM-139, GRAM-140, GRAM-141, GRAM-142, GRAM-143, GRAM-144, GRAM-219, GRAM-220, GRAM-221, GRAM-222, GRAM-321, GRAM-323, GRAM-511
-- [x] Parallel structure — GRAM-216
-- [x] Relative clauses ⭐ — GRAM-238, GRAM-239, GRAM-324, GRAM-325, GRAM-326, GRAM-327, GRAM-328, GRAM-329, GRAM-330, GRAM-515, GRAM-605
-- [x] Conjunctions / connectors ⭐ — GRAM-241, GRAM-242, GRAM-244, GRAM-513, GRAM-514, GRAM-611
-- [x] Word order & inversion ⭐ — FUNC-211, GRAM-202, GRAM-203, GRAM-204, GRAM-243, GRAM-322, GRAM-609
-- [x] Reduced / participial clauses ⭐ — GRAM-240, GRAM-331, GRAM-332, GRAM-517
-- [x] Sentence structure ⭐ — GRAM-200, GRAM-209, GRAM-224, GRAM-233, GRAM-500, GRAM-501, GRAM-516
-- [x] Redundancy & word choice ⭐ — GRAM-205, GRAM-519
+- [x] Parallel structure ⭐ — GRAM-145, GRAM-216
+- [x] Relative clauses ⭐ — GRAM-149, GRAM-150, GRAM-151, GRAM-238, GRAM-239, GRAM-324, GRAM-325, GRAM-326, GRAM-327, GRAM-328, GRAM-329, GRAM-330, GRAM-515, GRAM-605
+- [x] Conjunctions / connectors ⭐ — GRAM-146, GRAM-147, GRAM-148, GRAM-241, GRAM-242, GRAM-244, GRAM-513, GRAM-514, GRAM-611
+- [x] Word order & inversion ⭐ — FUNC-211, GRAM-154, GRAM-155, GRAM-156, GRAM-202, GRAM-203, GRAM-204, GRAM-243, GRAM-322, GRAM-609
+- [x] Reduced / participial clauses ⭐ — GRAM-152, GRAM-153, GRAM-240, GRAM-331, GRAM-332, GRAM-517
+- [x] Sentence structure ⭐ — GRAM-157, GRAM-158, GRAM-200, GRAM-209, GRAM-224, GRAM-233, GRAM-500, GRAM-501, GRAM-516
+- [x] Redundancy & word choice ⭐ — GRAM-159, GRAM-205, GRAM-519
 
 ## Reading — 2/7
 
