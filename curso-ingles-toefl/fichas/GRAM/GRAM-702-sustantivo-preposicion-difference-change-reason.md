@@ -52,7 +52,7 @@ Reconocer la preposición que exige cada sustantivo académico frecuente y detec
 ## ⚠️ Errores comunes (clave TOEFL)
 - ❌ *the difference of A and B* → ✅ *the difference **between** A and B*.
 - ❌ *the reason of his absence* → ✅ *the reason **for** his absence*.
-- ❌ *a change of temperature* (aceptable) vs. *a change **in** temperature* (más común para aumento/disminución).
+- ⚠️ *a change of clothes / of government* (sustitución) vs. ✅ *a change **in** temperature* (variación de un aspecto: lo más común en textos científicos).
 - ❌ *a barrier for trade* → ✅ *a barrier **to** trade*.
 - ❌ *the cause for the fire* (cuando es lo que lo provocó) → ✅ *the cause **of** the fire*.
 
