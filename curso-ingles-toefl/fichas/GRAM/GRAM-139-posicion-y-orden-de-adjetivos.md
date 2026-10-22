@@ -49,7 +49,7 @@ Colocar los adjetivos correctamente (sin plural, en el orden habitual y en la po
 - ❌ *a full of water bucket* → ✅ *a bucket **full of water***
 - ❌ *a wooden old box* → ✅ *an **old wooden** box*
 - ❌ *the alive animals* → ✅ *the **living** animals / the animals that are alive*
-- ❌ *something strange enough* ok / ❌ *strange something* → ✅ *something strange*
+- ❌ *strange something* → ✅ *something strange*
 
 ## 🔤 Vocabulario clave
 | Palabra/colocación | Significado | Nota |
