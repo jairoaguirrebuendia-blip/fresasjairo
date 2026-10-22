@@ -10,7 +10,7 @@ Paquete 1 (`markdown_resultados.zip`, 2026-10-21): 19 documentos ya convertidos 
 | D04 | Focus on Grammar 5 | (no consta) | 5th ed. · solo Units 7–15 | Gramática avanzada | GRAM-300..399 | extraído | 33 |
 | D05 | Handbook of Second Language Acquisition | Ritchie & Bhatia (eds.) | 1996, Academic Press · ISBN 0-12-589042-7 | Adquisición (METO) | METO-200..299 | extraído | 12 |
 | D06 | Inspired English Teaching | K. West | 2010, Continuum · ISBN 978-1-4411-4134-7 | Lectura y hábitos (METO) | METO-300..399 | extraído | 8 |
-| D07 | Intermediate English Grammar and Practice | — | — | Gramática intermedia | GRAM-200..299 | en extracción | 35 |
+| D07 | Intermediate English Grammar and Practice | (no consta) | (no consta; formato tipo Collins COBUILD, sin confirmar) | Gramática intermedia | GRAM-200..299 | extraído | 45 |
 | D08 | Introducing English for Specific Purposes | L. Anthony | 2018, Routledge · ISBN 978-1-138-93665-2 | Necesidades, corpus (METO, VOCAB) | METO-400..499, VOCAB-400..499 | extraído | 10 |
 | D09 | Inviting Students to Learn | J. Edwards | 2010, ASCD · ISBN 978-1-4166-0903-2 | Motivación (METO) | METO-500..599 | extraído | 6 |
 | D10 | Motivating Students to Learn | J. Brophy | 3rd ed., 2010, Routledge · ISBN 978-0-415-80070-9 | Motivación (METO) | METO-600..699 | extraído | 10 |
